@@ -20,6 +20,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://music.real6.ml
-        ftp-username: music.real6.ml
+        ftp-server: ftp://iuweb.ueuo.com
+        ftp-username: iuweb.ueuo.com
         ftp-password: ${{ secrets.ftp_password }}
