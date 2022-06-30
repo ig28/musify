@@ -1,5 +1,5 @@
 
-name: 🚀 Deploy music.real6.ml
+name: 🚀 Deploy web ftp
 on:
   workflow_run:
     workflows: ["生成静态文件"]
@@ -9,7 +9,7 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Deploy 部署到music.real6.ml
+    name: 🎉 Deploy 部署到网站服务器
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
